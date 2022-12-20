@@ -52,7 +52,7 @@ This was my first dive into app development, and it ended up being a fantastic l
 
 Time arithmetic is something that is quite tedious to me. And, with a hybrid-remote job where I need to track my hours, it's something I need to do quite often. So, I wrote TimeCalc, a CLI [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)-like program for performing arithmetic with time and durations. 
 
-TimeCalc was written with [Kotlin-Native](https://kotlinlang.org/docs/native-overview.html), which compiles down to a binary executable rather than a JVM application. This makes it easier to add the executable to PATH and run from the command line.
+TimeCalc was written with [Kotlin-Native](https://kotlinlang.org/docs/native-overview.html), which compiles down to a binary executable rather than a JVM byte-code. This makes it easier to add the executable to PATH and run from the command line.
 
 TimeCalc supports the following:
 1. Addition and subtraction
