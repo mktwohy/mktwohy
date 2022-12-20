@@ -34,8 +34,7 @@ ToneTutor assigns a number to timbre with three steps:
 
 An Android app for additive synthesis. After adjusting the harmonic-series editor and waveshape selector to construct a sound, the user can play music with the resizable, polyphonic keyboard and pitch bend slider.  
 
-The app uses a [synth library](https://github.com/mktwohy/Synth/tree/Main/SignalLib/src/main/java/com/example/signallib) I wrote in a Kotlin for generating, manipulating, and playing periodic  
-signals with overtones. This library is also used in ToneTutor for testing purposes.
+The app uses a [synth library](https://github.com/mktwohy/Synth/tree/Main/SignalLib/src/main/java/com/example/signallib) I wrote in a Kotlin for generating, manipulating, and playing periodic signals with overtones. This library is also used in ToneTutor for testing purposes.
 
 This was my first dive into app development, and it ended up being a fantastic learning experience. 
 
@@ -43,7 +42,7 @@ This was my first dive into app development, and it ended up being a fantastic l
 ## SatisfactoryCalculator
 > **Links** [Repo](https://github.com/mktwohy/SatisfactoryCalculator)
 
-[Satisfactory](https://www.satisfactorygame.com/) is a factory building game that I've been playing for the past few months. The game requires some ratio math that becomes tedious when planning larger factories. So, using Compose for Desktop, a Kotlin framework, I created a desktop app for browsing the game's recipes and calculating the clock speeds required for a given output/minute or vice versa. As a bonus, the app's UI mimics an in-game menu.
+[Satisfactory](https://www.satisfactorygame.com/) is a factory building game that I've been playing for the past few months. However, the game requires some ratio math that can become tiresome when planning larger factories. So, using [Compose for Desktop](https://www.jetbrains.com/lp/compose-desktop/), a Kotlin framework, I created a desktop app for browsing the game's recipes and calculating the clock speeds required for a given output/minute or vice versa. As a bonus, the app's UI mimics an in-game menu.
 
 ![SatisfactoryCalculator - Demo](https://user-images.githubusercontent.com/69822801/208554237-17409dc0-f5b6-4f39-9cb5-9a98c23fa508.gif)
 
@@ -51,23 +50,20 @@ This was my first dive into app development, and it ended up being a fantastic l
 ## TimeCalc
 > **Links** [Repo](https://github.com/mktwohy/TimeCalc)
 
-Time arithmetic is something that is quite tedious to me. And, with a hybrid-remote job where I need to track my hours, it's something I need to do quite often. So, I wrote TimeCalc, a CLI [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) program for performing arithmetic with time and durations. 
+Time arithmetic is something that is quite tedious to me. And, with a hybrid-remote job where I need to track my hours, it's something I need to do quite often. So, I wrote TimeCalc, a CLI [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)-like program for performing arithmetic with time and durations. 
 
-TimeCalc was written with [Kotlin-Native](https://kotlinlang.org/docs/native-overview.html), which compiles down to a binary executable rather than a JVM application. This makes it easier add the executable to PATH and run from the command line.
+TimeCalc was written with [Kotlin-Native](https://kotlinlang.org/docs/native-overview.html), which compiles down to a binary executable rather than a JVM application. This makes it easier to add the executable to PATH and run from the command line.
 
-### Features
 TimeCalc supports the following:
-
 1. Addition and subtraction
   ![TimeCalc - Addition and Subtraction](https://user-images.githubusercontent.com/69822801/208552095-b5499009-4fba-43c7-8fcf-65bfa5b3264c.gif)
 
 1. Parentheses
   ![TimeCalc - Parentheses](https://user-images.githubusercontent.com/69822801/208552108-09b6962f-c405-4cf1-961a-8732eabff517.gif)
 
-3. Variables (with a reserved variable, `now`)
+3. Variables and a reserved variable `now`
   ![TimeCalc - Variables](https://user-images.githubusercontent.com/69822801/208552122-86f2d28a-1eec-479d-90f8-ca921dff45d6.gif)
 
-### Example
 A common use case is seeing what time I will be ending work that day. Suppose I want to get 8 hours, and I've already spent an 5 hours and 26 minutes. In TimeCalc, this is achieved with the following:
 ![TimeCalc - Example](https://user-images.githubusercontent.com/69822801/208552281-256929eb-3a0e-4b99-8438-1d9842bb511e.gif)
 	
