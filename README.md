@@ -23,8 +23,8 @@ ToneTutor assigns a number to timbre with three steps:
   <p>
     
   - [Harmonic Series Interactive Visualizer by Alex Anderchen](https://alexanderchen.github.io/harmonics/?howmany=16)
-  - [Harmonic Series Video by Andrew Huang](https://www.youtube.com/watch?v=spUNpyF58BY)
-  - [Fourier Transform Video by 3 Blue 1 Brown](https://www.youtube.com/watch?v=Wx_kugSemfY)
+  - [Harmonic Series Video by Andrew Huang](https://www.youtube.com/watch?v=Wx_kugSemfY)
+  - [Fourier Transform Video by 3Blue1Brown](https://www.youtube.com/watch?v=spUNpyF58BY)
     
   </p>
 </details>
